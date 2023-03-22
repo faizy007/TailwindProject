@@ -12,14 +12,14 @@
 
 <body>
   <!-- navbar -->
-  <nav class="sm:px-4 p-10 rounded dark:bg-white">
-    <div class="flex flex-wrap items-center justify-between container mx-auto">
+  <nav class="sm:px-4 p-10">
+    <div class="flex flex-wrap items-center justify-between md:container md:mx-auto">
       <a href="https://flowbite.com/" class="flex items-center">
         <img src="./img/Ellipse 1.png" class="h-6 mr-3 sm:h-9" alt="Study Logo" />
         <span class="self-center text-xl font-semibold whitespace-nowrap">Study</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
-        class="p-2 ml-3 text-sm rounded-lg md:hidden hover:bg-gray-100" aria-controls="navbar-default"
+        class=" ml-3 text-sm rounded-lg md:hidden hover:bg-gray-100" aria-controls="navbar-default"
         aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
@@ -60,7 +60,20 @@
     <!-- Flex Container -->
     <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
       <!-- Left item -->
-      <div class="flex flex-col mb-32 space-y-12 md:w-1/2 md:py-20">
+      <div class="md:mx-auto md:w-6/12 md:p-10">
+        <h1 class="text-[#3B4148] font-bold text-3xl font-sans mt-40 md:max-w-full md:text-5xl md:text-left">A Modern
+          and Smart Approach to Clinical Trials Research</h1>
+        <p class="text-[#3B4148] my-20">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <div>
+          <a href="#" class="p-4 w-[160px] h-[56px] text-white bg-[#75C44C] rounded-lg">Get Started</a>
+          <a href="#" class="ml-8 text-[#3B4148] underline font-semibold">Learn More</a>
+        </div>
+      </div>
+      <!-- <div class="flex flex-col mb-32 space-y-12 md:w-1/2 md:py-20">
         <h1
           class="max-w-md text-3xl font-bold text-center leading-[77px] text-[#3B4148] font-sans md:max-w-full md:text-5xl md:text-left">
           A Modern and Smart Approach to Clinical Trials Research
@@ -74,7 +87,7 @@
           <a href="#" class="p-4 w-[160px] h-[56px] text-white bg-[#75C44C] rounded-lg">Get Started</a>
           <a href="#" class="ml-8 text-[#3B4148] underline font-semibold">Learn More</a>
         </div>
-      </div>
+      </div> -->
       <!-- Image -->
       <div class="md:w-1/2">
         <img src="./img/FullCard.png" alt="girl photo" />
@@ -224,7 +237,7 @@
 
   <!-- CTA -->
 
-  <section id="greenLabel" class="bg-[#75C44C] ">
+  <section id="greenLabel" class="bg-[#75C44C] mt-10">
     <div class="bg-[url('./img/rightBack.png')] bg-no-repeat bg-right">
       <!-- <img src="./img/rightback.png " class="float-right" alt=""> -->
       <div class="flex md:container mx-auto p-6 ">
@@ -322,7 +335,7 @@
 
   <!-- FAQ -->
 
-  <section id="greenLabel" class="bg-[#75C44C] ">
+  <section id="greenLabel" class="bg-[#75C44C] mt-10">
     <div class="bg-[url('./img/Maskgroup.png')]">
       <div class="container mx-auto px-4 py-10">
         <div class="max-w-6xl px-5  mt-20 text-center container mx-auto px-4">
@@ -389,18 +402,20 @@
 
   <section id="footer>">
 
-    <div class="flex justify-between container mx-auto flex justify-between -mt-14 bg-[#4C872E]  p-12 rounded-lg">
+    <div
+      class="bg-[url('./img/callNow.png')] bg-no-repeat bg-right md:flex md:justify-between container mx-auto flex justify-between -mt-14 bg-[#4C872E]  p-12 rounded-lg">
       <div class="">
         <h1 class="font-bold text-white text-3xl font-['Work Sans'] leading-10">
           Call 1800-9860-568
         </h1>
         <h3 class=" text-white  font-['Work Sans'] text-2xl">now to find out if you are eligible</h3>
       </div>
-      <div class="mt-4">
+      <div class="mt-4 block">
         <a href="#" class="p-5 w-[160px] h-[56px] text-white bg-[#75C44C] rounded-lg">Call Now</a>
       </div>
     </div>
-    </div>
+
+
 
     <div class="container mx-auto md:flex justify-between mt-32">
 
@@ -445,6 +460,22 @@
         <img src="./img/facebook.png" alt="">
         <img src="./img/twitter.png" alt="">
         <img src="./img/linkedIn.png" alt="">
+      </div>
+    </div>
+
+    <div class="container mx-auto py-10">
+      <div class="border-t-2 border-black flex justify-between py-10">
+        <div>
+          <p>
+            Copyright 2022 <strong>iConnect</strong> Template. All rights reserved.
+          </p>
+        </div>
+        <div>
+          <a href="">Privacy Policy </a>
+          <a href="">Terms of Service</a>
+        </div>
+
+
       </div>
     </div>
   </section>
