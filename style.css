@@ -1,0 +1,8 @@
+.accordion.open .accordion-body{
+    display: block;
+}
+
+.accordion.open .accordion-title{
+    background-color: white;
+}
+
